@@ -43,6 +43,8 @@
     <Version>2.8.2</Version>
     <Configurations>Debug;Release;net452;</Configurations>
     <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>D:\nmulabs.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.5' ">
