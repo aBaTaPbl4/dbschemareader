@@ -17,12 +17,15 @@ namespace CoreTest
         {
             get
             {
+                return @"Server=(local);Database=Northwind;User ID=sa;Password=Password12!;Encrypt=False";
+                /*
                 if (string.Equals("True", Environment.GetEnvironmentVariable("APPVEYOR")))
                 {
                     return @"Server=(local)\SQL2016;Database=NorthwindDsr;User ID=sa;Password=Password12!;Encrypt=False";
                 }
                 //Microsoft.Data.SqlClient v4 requires SSL with trusted cert chain :(
                 return @"Data Source=.\SQLEXPRESS;Integrated Security=true;Initial Catalog=Northwind;Encrypt=False";
+                */
             }
         }
 
